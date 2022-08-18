@@ -1,0 +1,66 @@
+.star {
+    position: relative;
+    height: 1080px;
+    width: 1920px;
+    background-color: black;
+}
+.Welcome {
+    position: absolute;
+    width: 1090px;
+    height: 212px;
+    left: 434px;
+    top: 175px;
+    font-family: 'Rowdies';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 119px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FE3B1F;
+}
+button {
+    position: absolute;
+    width: 395px;
+    height: 79px;
+    left: 650px;
+    top: 492px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: #FE3B1F;
+    border-radius: 50px;
+}
+.submited {
+    position: absolute;
+    width: 338px;
+    height: 66px;
+    left: 750px;
+    top: 589px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+.rocketman {
+    position: absolute;
+    width: 409.92px;
+    height: 372.45px;
+    left: 661px;
+    top: 700px;
+    transform: rotate(-27.28deg);
+}
