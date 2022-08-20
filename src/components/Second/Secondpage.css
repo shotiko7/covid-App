@@ -13,7 +13,8 @@
 .secondright {
     width: 50%;
     height: 1080px;
-    border: 1px solid red
+    border: 1px solid red;
+    background-color:#454545;;
 }
 .secondleft h1 {
     position: absolute;
@@ -30,4 +31,36 @@
     align-items: center;
     text-align: center;
     color: #FE3B1F;
+}
+/* Right Side */
+.secondright h2 {
+    position: absolute;
+    width: 716px;
+    height: 94px;
+    left: 1116px;
+    top: 112px;
+    font-family: 'Rowdies';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 79px;
+    display: flex;
+    align-items: center;
+    color: #FE3B1F;
+}
+.secondright p {
+    position: absolute;
+    width: 705px;
+    height: 606px;
+    left: 1119px;
+    top: 195px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 200%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
 }
