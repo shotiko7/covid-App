@@ -9,7 +9,7 @@ function Firstpage(props) {
         <div>
             <img className='star' src={star} alt='star'/>
             <h1 className='Welcome'> Welcome Rocketeer ! </h1>
-            <button onClick={props.onClick}> Start Questionnaire </button>
+            <button className='firstButton' onClick={props.onClick}> Start Questionnaire </button>
             <h4 className='submited'> Submitted Applications </h4>
             <img className='rocketman' src={rocketman} alt='rocketman' />
         </div>

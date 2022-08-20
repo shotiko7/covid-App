@@ -1,5 +1,33 @@
 .maindiv {
+    position: relative;
     width: 1920px;
     height: 1080px;
+    display: flex;
     border: 1px solid green;
+}
+.secondleft {
+    width: 50%;
+    height: 1080px;
+    border: 1px solid blue;
+}
+.secondright {
+    width: 50%;
+    height: 1080px;
+    border: 1px solid red
+}
+.secondleft h1 {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 716px;
+    height: 128px;
+    font-family: 'Rowdies';
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 79px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FE3B1F;
 }

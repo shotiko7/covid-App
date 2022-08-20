@@ -20,7 +20,7 @@
     text-align: center;
     color: #FE3B1F;
 }
-button {
+.firstButton {
     position: absolute;
     width: 395px;
     height: 79px;
